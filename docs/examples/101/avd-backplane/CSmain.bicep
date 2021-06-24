@@ -9,7 +9,7 @@ param applicationgrouptype string = 'Desktop'
 param preferredAppGroupType string = 'Desktop'
 param avdbackplanelocation string = 'northeurope'
 param hostPoolType string = 'personal'
-param loadBalancerType string = 'persistant'
+param loadBalancerType string = 'BreadthFirst'
 
 //Create AVD Hostpool
 resource hp 'Microsoft.DesktopVirtualization/hostpools@2019-12-10-preview' = {
